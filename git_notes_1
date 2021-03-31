@@ -1,0 +1,80 @@
+
+# create user(global setting)
+
+git config --global user.name "Cesar Ordonez"
+git config --global user.email "ordonez26@msn.com"
+
+
+# If i wante to change the user for a specific project:
+
+same as above. except withouth the '--global' setting. 
+
+# To check out your settings:
+
+git config --list 
+
+# to see specif setting:
+
+git config user.name 
+git config user.email 
+
+# to get help from git:
+
+man git 
+git help config 
+git help -a 
+git help -b 
+
+
+# To initialize a git repository:
+
+git init 
+
+# to look at the files under git:
+
+cd .git
+ls 
+
+# repository hosting sites
+
+github, gitlab,  gitbucket
+
+# repository url:
+
+https://github.com/cesarid1/wired-brain-coffee.git
+
+# To create a new repository:
+
+echo "# wired-brain-coffee" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/cesarid1/wired-brain-coffee.git
+git push -u origin main
+
+# to create a README.md file:
+
+echo "# wired-brain-recipes" >> README.md 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
