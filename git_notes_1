@@ -37,7 +37,7 @@ ls
 
 # repository hosting sites
 
-github, gitlab,  gitbucket
+github, gitlab,  bitbucket
 
 # repository url:
 
@@ -56,6 +56,109 @@ git push -u origin main
 # to create a README.md file:
 
 echo "# wired-brain-recipes" >> README.md 
+
+# to add file on active folder:
+
+git add .
+
+
+# to commit:
+
+git commit -m "first commit"
+
+# to link both repositories local and remote:
+
+git remote add origin https://github.com/cesarid1/wired-brain-coffee.git
+
+# to push our repository to git(which will prompt for username/pwd):
+
+git push -u origin master 
+
+# to check status 
+
+git status
+
+# to track a file:
+
+git add vendors.txt 
+
+# to open a file in a editor:
+
+open -a atom 
+
+code git_notes_1 
+
+# to add to staging area:
+
+git add git_notes_1k
+
+# Short Status meaning:
+
+There are 3 stages: Staged, Modified, File name
+
+M = Modified
+A = New file added to staging area 
+?? = New file untracked by Git. 
+
+# Git diff (staged)
+
+What changes have i staged that are not ready to be commited?
+What changes have i made but not yet staged?
+
+git diff --staged 
+
+# changes in the active directory:
+
+git diff
+
+# to automatically committ all changes and bypass staging changes:
+
+git commit -a -m "add new vendor"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
