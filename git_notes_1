@@ -116,6 +116,9 @@ git diff
 
 git commit -a -m "add new vendor"
 
+# to push our changes in our local master:
+
+git push origin master
 
 
 
