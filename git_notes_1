@@ -105,6 +105,7 @@ A = New file added to staging area
 What changes have i staged that are not ready to be commited?
 What changes have i made but not yet staged?
 
+git diff -s 
 git diff --staged 
 
 # changes in the active directory:
