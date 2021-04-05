@@ -121,6 +121,49 @@ git commit -a -m "add new vendor"
 git push origin master
 
 
+# To view our commits :
+
+git log
+ 
+git log -5 (the last 5 commits)
+
+git log --oneline (shows all commits in one line)
+
+git log --stat (more detailed info about the commits)
+
+git log --patch (full view of the commits)
+
+
+# To Launch from git bash an URL:
+
+$ start chrome http://chris.beams.io/posts/git-commit
+
+
+# To remove a file we need to tell Git to stop tracking the file:
+
+git rm eggnog_latte
+
+# To remove a file from Git. But not remove from the working directory:
+
+git rm --cached <file-name>
+
+
+# To rename a file:
+
+git mv README.md README 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
