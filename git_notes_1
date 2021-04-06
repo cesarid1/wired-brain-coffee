@@ -153,6 +153,104 @@ git rm --cached <file-name>
 git mv README.md README 
 
 
+-------------------
+
+# Tool that helps to track changes:
+
+ curl https://git-school.github.io/visualizing-git/
+
+
+# To check out a branch 
+
+git checkout -b <branch-name>
+
+
+# to check out back to master:
+
+git checkout master
+
+
+# to commit on branch 
+
+ git commit -m "started topic of branching and deleted vendors.txt"
+
+# to hide or stash data in our branch ONLY we use:
+
+git add .
+git stash 
+!
+git stash list
+git stash show 
+!
+git stash pop 
+
+
+# to merge changes from branch to master:
+
+in the master type:
+git merge new_branch
+
+# to reset all the commits
+
+git reset --soft (will move specific commits back to the stagin area)
+git reset --mixed (similar to the one above. it moves the changes back to working directory)
+git reset --hard (moves the changes to the trash. In case you want to start fresh.)
+
+# to revert back to origin/master 
+
+git reset --mixed 56240e3 (last time they were synced)
+git add . (to place both master and branch changes in the working directory ready to be commited)
+git commit -m "Group master and new_branch changes" (to comit all changes in one comit back to origin/master)
+git push origin master (this will push up to the origin)
+
+# to download onto another devices to work with:
+
+https://github.com/cesarid1/wired-brain-coffee.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
